@@ -20,7 +20,7 @@ document.body.addEventListener('mousemove', function (e) {
     if (!e.currentTarget.dataset.triggered) {
         elems.forEach(function (elem, index) {
             if (elem.getAttribute('style')) {
-                elem.style.transition = "all .5s";
+                elem.style.transition = "all .1s";
                 elem.style.transform = "none";
             }
         });
@@ -45,7 +45,7 @@ document.body.addEventListener('mousemove', function (e) {
 
 document.body.addEventListener('mouseleave', function (e) {
     elems.forEach(function (elem, index) {
-        elem.style.transition = "all .5s";
+        elem.style.transition = "all .1s";
         elem.style.transform = "none";
     });
 });
