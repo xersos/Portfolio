@@ -375,7 +375,7 @@ section
 	bottom: -20px;
 	width: 100%;
 	height: 17px;
-	background: #ff9800;
+	background: #f96754;
 	content: '';
 	z-index: -1;
 	visibility: hidden;
@@ -721,7 +721,7 @@ section
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: #ff9800;
+	background: #f96754;
 	z-index: 1;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 1000ms ease;
@@ -771,7 +771,7 @@ section
 {
 	width: 181px;
 	height: 42px;
-	background: #ff9800;
+	background: #f96754;
 	text-align: center;
 }
 .featured_album_link a
@@ -938,7 +938,7 @@ section
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	background: #ff9800;
+	background: #f96754;
 	border: none;
 	cursor: pointer;
 	text-align: center;
@@ -1122,7 +1122,7 @@ section
 {
 	width: 78px;
 	height: 60px;
-	background: #ff9800;
+	background: #f96754;
 	line-height: 60px;
 	text-align: center;
 	margin-right: 23px;
@@ -1140,7 +1140,7 @@ section
 }
 .show_name a:hover
 {
-	color: #ff9800;
+	color: #f96754;
 }
 .show_location
 {
@@ -1155,7 +1155,7 @@ section
 }
 .show_shop:hover
 {
-	background: #ff9800;
+	background: #f96754;
 }
 .show_shop a
 {
