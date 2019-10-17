@@ -946,7 +946,7 @@ section
 }
 .sidebar_section:not(:last-child)
 {
-	margin-bottom: 10px;
+	margin-bottom: 53px;
 }
 .sidebar_title
 {
@@ -1292,7 +1292,7 @@ section
 }
 
 .graphic-design {
-	width:80%; 
+	width:99%; 
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
 	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
