@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+}
+
+body{
+  background-image: url('../images/error404.png'),linear-gradient(to bottom, #05007A, #4D007D);
+  height: 20%;
+  margin: 0;
+  background-attachment: fixed;
+  overflow: hidden;
+}
