@@ -1299,7 +1299,7 @@ section
 }
 
 .angular {
-	width:60%; 
+	width:58%; 
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
 	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);

@@ -1291,6 +1291,13 @@ section
 	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
 
+.graphic-design {
+	width:99%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
+}
+
 .html-css {
 	width:90%;
 	-moz-animation:html-css 2s ease-out;
@@ -1298,63 +1305,19 @@ section
 	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
 }
 
-.angular {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
+.jquery {
+	width:65%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
 	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
 }
 
-.PHP {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
+.wordpress {
+	width:80%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);	
 }
-
-.REACT {
-	width:52%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.ADOBE {
-	width:75%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.JAVASCRIPT {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.SCSS {
-	width:70%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.JAVA {
-	width:55%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.NODEJS {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-
 
 @-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
 @-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }

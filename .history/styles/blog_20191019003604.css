@@ -1250,118 +1250,43 @@ section
 /*********************************
 10. Progress bar
 *********************************/
-#skill { 
-	list-style: none;
-	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	width: 296px;
-	margin: 50px auto 0;
-	position: relative;
-	line-height: 2em;
-	padding: 30px 0;
+.skill-set__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
-
-#skill li { 
-	margin-bottom:50px; 
-	background:#e9e5e2;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
-	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
-	height:20px; 
-	border-radius:10px; 
-	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
-	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
-	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+@media screen and (max-width: 1250px)
+.content {
+    padding: 0 10%;
 }
-
-#skill li h3 { 
-	position:relative; 
-	top:-25px;
+.content--mlarge {
+    margin-top: 14.4rem;
 }
-
-.bar { 
-	height:18px; 
-	margin:1px 2px;  
-	position:absolute;
-	border-radius:10px;
-	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
-	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
-	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+.content {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
-
-.html-css {
-	width:90%;
-	-moz-animation:html-css 2s ease-out;
-	-webkit-animation:html-css 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
+.skill-set__list {
+    width: 47%;
 }
-
-.angular {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
+ol, ul {
+    list-style: none;
 }
-
-.PHP {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
-.REACT {
-	width:52%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-.ADOBE {
-	width:75%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.JAVASCRIPT {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.SCSS {
-	width:70%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.JAVA {
-	width:55%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-.NODEJS {
-	width:60%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 40%, #ff4d5a);
-}
-
-
-
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
-
-@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
