@@ -12,7 +12,7 @@
 5. Home
 6. Featured Album
 7. Shows
-8. coco
+8. Artist
 9. Extra
 10. Footer
 
@@ -755,7 +755,7 @@ section
 	padding-left: 55px;
 	padding-right: 46px;
 }
-.featured_album_coco
+.featured_album_artist
 {
 	font-size: 30px;
 	color: #FFFFFF;
@@ -1167,37 +1167,37 @@ section
 }
 
 /*********************************
-8. coco
+8. Artist
 *********************************/
 
-.coco
+.artist
 {
 	padding-bottom: 106px;
 	background: #000000;
 }
-.coco_content
+.artist_content
 {
 	padding-top: 191px;
 }
-.coco_image
+.artist_image
 {
 	width: calc(100% + 205px);
 	left: -185px;
 	padding-right: 20px;
 }
-.coco_image img
+.artist_image img
 {
 	max-width: 100%;
 }
-.coco_text
+.artist_text
 {
 	margin-top: 39px;
 }
-.coco_text p:not(:last-child)
+.artist_text p:not(:last-child)
 {
 	margin-bottom: 30px;
 }
-.coco_sig
+.artist_sig
 {
 	margin-top: 51px;
 	margin-left: 26px;
