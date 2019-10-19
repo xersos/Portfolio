@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Error404</title>
+<title>Contact</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Portfolio Corentin Jacob">
@@ -12,7 +12,6 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/contact.css">
-<link rel="stylesheet" type="text/css" href="styles/404.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
 </head>
 <body>
@@ -28,7 +27,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
 					<li><a href="blog.html">About me</a></li>
-					<li class=""><a href="error404.html">Contact</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="hamburger ml-auto">
@@ -52,17 +51,50 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="projects.html">Projects</a></li>
 						<li><a href="blog.html">About me</a></li>
-						<li><a href="error404.html">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	</div>
-    <div id="main">
-            <div class="fof">
-                    <img src="images/error404.png" alt="404error">
-            </div>
-    </div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_inner">
+			<!-- Image artist: https://unsplash.com/@yoannboyer -->
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/planet.png" data-speed="0.8"></div>
+			<div class="home_container">
+				<div class="home_content text-center">
+					<div class="home_subtitle">Just me</div>
+					<div class="home_title">Contact</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact">
+		<div class="container">
+			<div class="row">
+				
+				<!-- Contact Form -->
+				<div class="col-lg-12">
+					<div class="contact_form_container">
+						<div class="contact_title">Send me a message</div>
+						<form action="#" class="contact_form" id="contact_form">
+							<input type="text" class="contact_input" placeholder="Name" required="required">
+							<input type="email" class="contact_input" placeholder="E-mail" required="required">
+							<input type="text" class="contact_input" placeholder="Subject">
+							<textarea class="contact_input contact_textarea" placeholder="Message" required="required"></textarea>
+							<button class="contact_button" style="text-align: center">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Footer -->
 
@@ -76,10 +108,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 </div>
 
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>
 <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
 <script src="plugins/greensock/TweenMax.min.js"></script>
